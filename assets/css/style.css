@@ -127,7 +127,6 @@ body{
 .join_btn{
     padding: 15px 134px;
     display: inline-block;
-    
     height: 54px;
     width: 100% ;
     border: 2px solid #fa9d56;
@@ -170,19 +169,19 @@ body{
     margin-bottom: 45px;
    
 }
-.feature1{
+.BrandBar{
     margin: 0 auto;
     height: 110px;
     width: 1400px;
     background-color: #ffffff;
     border-bottom: 1px solid #9a9a9a;
 }
-.feature1_link{
+.BrandBar_link{
     margin-bottom: 0;
     font-size: 20px;
     color: #333333;
 }
-.feature1_abz{
+.BrandBar_abz{
     margin: 0;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
@@ -195,4 +194,67 @@ body{
 }
 .img_correct{
     padding-top: 30px;
+}
+.features1{
+    margin: 0 auto;
+    height: 600px;
+    width: 1400px;
+    background-color: #f5f5f5;
+    
+}
+.FeatPadding{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+}
+.tabs{  
+display: flex;
+flex-direction: column;
+
+}
+.tab_btn1{
+    height: 110px;
+    width: 110px;
+    margin: 0;
+    line-height: 110px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    background: #333333;
+    border-radius: 5px 5px 0 0;
+}
+.tab_btn1:hover{
+    background-color: #ff8b38;
+}
+.tab_btn2{
+    height: 110px;
+    width: 110px;
+    margin: 0;
+    line-height: 110px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    background: #333333;
+    border-bottom: 0.1px solid  #f5f5f5;
+    border-top: 0.1px solid  #f5f5f5;
+}
+.tab_btn2:hover{
+    background-color: #ff8b38;
+}
+.tab_btn3{
+    height: 110px;
+    width: 110px;
+    margin: 0;
+    line-height: 110px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    background: #333333;
+    border-radius: 0 0 5px 5px;
+}
+.tab_btn3:hover{
+    background-color: #ff8b38;
 }
