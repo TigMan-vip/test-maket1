@@ -127,7 +127,7 @@ body{
 .join_btn{
     padding: 15px 134px;
     display: inline-block;
-    vertical-align: top;
+    
     height: 54px;
     width: 100% ;
     border: 2px solid #fa9d56;
@@ -162,11 +162,37 @@ body{
 }
 .join_input:focus{
     border-bottom: 1px solid #adadad;
-    border-left: 1px solid #dfdddd;
-    border-right: 1px solid #dfdddd;
+    border-left: 1px solid #e7e5e5;
+    border-right: 1px solid #e7e5e5;
 }
 .join_group{
     position: relative;
     margin-bottom: 45px;
    
+}
+.feature1{
+    margin: 0 auto;
+    height: 110px;
+    width: 1400px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #9a9a9a;
+}
+.feature1_link{
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #333333;
+}
+.feature1_abz{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: #9a9a9a;
+    width: 430px;
+}
+.img_inner{
+    display: flex;
+    justify-content: space-between;
+}
+.img_correct{
+    padding-top: 30px;
 }
