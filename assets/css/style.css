@@ -130,14 +130,43 @@ body{
     vertical-align: top;
     height: 54px;
     width: 100% ;
-    border: 2px solid #ffffff;
+    border: 2px solid #fa9d56;
     text-decoration: none;
     font-size: 15px;
     color: #ffffff;
+    background: #fa9d56;
     border-radius: 0 0 5px 5px;
 }
 .join_btn:hover{
-    background: #ff9b51;
-    border: 2px solid #ff9b51;
+    background: #f7a567;
+    border: 2px solid #f7a567;
+}
+.join_body{
+    padding-top: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.join_input{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 0 0 5px 0;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+}
+.join_input::placeholder{
+    color: #cecece;
+    padding-left: 10px;
     
+}
+.join_input:focus{
+    border-bottom: 1px solid #adadad;
+    border-left: 1px solid #dfdddd;
+    border-right: 1px solid #dfdddd;
+}
+.join_group{
+    position: relative;
+    margin-bottom: 45px;
+   
 }
