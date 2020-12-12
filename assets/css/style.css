@@ -442,7 +442,9 @@ flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color:#ff8b38;
-    margin-left: 47%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
     
  }
 .head_abz{
@@ -453,9 +455,10 @@ flex-direction: column;
 }
 
 .processes_step_content{
+    text-align: center;
     margin-top: 81px;
-   display: flex;
-   justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .ps_content{
@@ -520,4 +523,218 @@ flex-direction: column;
     color: #8d8b8b;
     background-color: white;
     border-bottom: 2px solid #f5f5f5;
+}
+
+
+
+
+
+/*Testimonials*/
+
+.testimonials{
+    background-color:#ffffff;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 107px;
+    padding-bottom: 100px;
+}
+
+.tmonials_content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+
+.tmonials_content_text{
+  
+    width: 260px;
+    color: #777474;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 13px;
+    margin-top: -138px;
+    font-style: italic;
+    margin-bottom: 38px;
+}
+
+.avatar{
+    position: absolute;
+}
+
+.avatar_name{
+    margin: 0;
+    font-size: 20px;
+    color: black;
+    margin-left: 90px;
+    padding-top: 9px;
+}
+
+.professions{
+    font-size: 14px;
+    color:  #777474;
+    margin-left: 90px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+/*custom*/
+
+.custom{
+    width: 100%;
+    max-width: 1400px;
+    height: 320px;
+    margin: 0 auto;
+    background:url("../images/fon.jpg");
+}
+
+.custom_tilte{
+    padding-top: 70px;
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+    color: white;
+    font-family: 'Raleway';
+}
+
+.custom_tilte::after{
+    content: "";
+    display: block;
+    width: 65px;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color:white;
+    margin-left: 47%;
+}
+
+.custom_text{
+    text-align: center;
+    color: #d7d7d7;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.custom_btn{
+    margin-top: 34px;
+    padding: 8px 30px;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px; 
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+
+/*Contact*/
+
+.contact{
+    background-color:#ffffff;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 107px;
+    padding-bottom: 80px;
+}
+
+.contact_join{
+    margin-top: 79px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_join_imput{
+    margin-bottom: 40px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 0 0 5px 0;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    padding-left: 10px;
+}
+.contact_join_group{
+    width: 520px;
+}
+.contact_join_imput::placeholder{
+    color: #cecece;
+    padding-left: 10px;
+}
+
+.contact_join_imput:focus{
+    border-bottom: 1px solid #adadad;
+    border-left: 1px solid #e7e5e5;
+    border-right: 1px solid #e7e5e5;
+}
+
+.contact_join_imputMsg{
+    width: 100%;
+    height: 155px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    padding-left: 10px;
+    resize: none;
+}
+.contact_join_imputMsg::placeholder{
+    color: #cecece;
+    padding-left: 10px;
+}
+
+.contact_btn{
+    padding: 10px 20px;
+    display: inline-block;
+    background-color:  #ff9b51;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 3px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.contact_btn:hover{
+    background-color:  #f7aa6f
+}
+
+
+
+/*Footer*/
+
+.footer{
+    background-color: black;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+
+.footer_cont{
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.footer_items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_end{
+    text-align: center;
+    font-size: 12px;
+    color: #808080;
+    font-family: 'Open Sans', sans-serif;
 }
